@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--txt);
+}
+.left{
+    background: url(./nature.avif);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    width: 34%;
+}
+
+.right{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+}
+
+
+
+.credit{
+    margin-top: auto;
+
+}
+
+main{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    background-color: black;
+    opacity: 0.6;
+}
+
+img{
+    width: 30%;
+}
+
+.odin{
+    font-family: myFont;
+    font-size: 200%;
+
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(/Norse-Bold.otf);
+}
+
+.top{
+    background-color: whitesmoke;
+    font-weight: 500;
+    height: 35%;
+    padding-left: 10vw;
+    padding-right: 2vw;
+    padding-top: 5vh;
+    font-size: 90%;
+}
+
+.log{
+    background-color: white;
+    height: 35%;
+    padding-left: 10vw;
+    padding-top: 3%;
+}
+
+.bottom{
+    background-color:whitesmoke;
+    height: 30%;
+}
+
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+}
+
+.inputs > div{
+    margin:2% 2% 2% 0;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-top: 2vh;
+}
+
+.accButton{
+    width: 15vw;
+    height: 4vh;
+    margin-bottom: 2%;
+    background-color: #596D48;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
+.buttomText{
+    display: flex;
+}
+
+.buttomText > p {
+    font-size: 0.8rem;
+}
+
+.buttomText > a {
+    font-size: 0.8rem;
+    margin-left: 0.5vw;
+    color: green;
+}
+
+a:hover{
+    color: blue;
+}
